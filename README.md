@@ -14,12 +14,12 @@ Coding algorithm study 🍷
 - 터미널에서 작성법:`git commit -m "[BOJ] Hello World / 브론즈5 / 1분"`
 
 플랫폼 작성법 통일:<br>
-[BOJ] - 백준
-[PGS] - 프로그래머스
-[LTC] - 리트코드
-[CFS] - 코드포스
-[SEA] - 삼성SW Expert Academy
-[ETC] - 그외
+- [BOJ] : 백준
+- [PGS] : 프로그래머스
+- [LTC] : 리트코드
+- [CFS] : 코드포스
+- [SEA] : 삼성SW Expert Academy
+- [ETC] : 그외
 
 
 💻  인증 방식
