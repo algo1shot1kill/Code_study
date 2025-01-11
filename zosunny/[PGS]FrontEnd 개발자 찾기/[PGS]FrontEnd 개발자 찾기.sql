@@ -1,0 +1,9 @@
+-- 코드를 작성해주세요
+-- 조건에 맞는 개발자의 ID, 이메일, 이름, 성 조회
+-- ID를 기준으로 오름차순
+
+SELECT DISTINCT D.ID, D.EMAIL, D.FIRST_NAME, D.LAST_NAME
+FROM SKILLCODES S JOIN DEVELOPERS D
+ON (S.CODE & D.SKILL_CODE) = S.CODE
+WHERE S.CATEGORY = "Front End"
+ORDER BY 1;
